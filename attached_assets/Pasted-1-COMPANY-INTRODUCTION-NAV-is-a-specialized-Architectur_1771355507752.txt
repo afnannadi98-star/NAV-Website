@@ -1,0 +1,174 @@
+1. COMPANY INTRODUCTION
+NAV is a specialized Architectural BIM consultancy founded in 2025.
+We operate at the intersection of:
+•	Design intent
+•	Technical accuracy
+•	BIM governance
+•	Model health control
+•	Authority compliance
+Our work supports consultants, developers, contractors, and delivery teams by structuring complex architectural information into coordinated BIM environments aligned with project standards.
+NAV focuses on:
+•	Clean model development
+•	Structured federation
+•	Controlled documentation workflows
+•	Reduced rework and submission risk
+•	ISO-aligned information management
+2. TEAM STRUCTURE
+NAV operates under a structured technical hierarchy:
+•	Founder / BIM Manager
+•	Project Architect
+•	Senior Architect
+•	BIM Coordinator
+•	BIM Architects
+Each project includes defined coordination roles and QA checkpoints to ensure consistency and accountability.
+________________________________________
+3. BIM SERVICES CAPABILITIES
+NAV provides Architectural BIM services across:
+•	SD – Schematic Design
+•	DD – Detailed Design
+•	IFC – Issued for Construction
+•	Shop Drawings
+•	As-Built (LOD 500)
+•	Authority Submissions
+LOD Range: LOD 200 – LOD 500
+Core Capabilities:
+•	Revit-based architectural modeling
+•	Model federation strategy
+•	Clash detection and coordination
+•	Shop drawing extraction
+•	As-built documentation
+•	Property set management
+•	Model audit & health optimization
+4. PROJECT UNDERSTANDING
+NAV understands that successful BIM delivery requires:
+•	Clear governance structure
+•	Defined clash management protocols
+•	Strict LOD tracking
+•	Controlled naming conventions
+•	ISO-compliant information exchange
+•	Continuous QA/QC verification
+Without early structure, downstream rework increases significantly.
+Our approach eliminates ambiguity before production begins.
+________________________________________
+5. SCOPE OF WORK
+NAV’s scope includes Architectural BIM services covering:
+A. Project Onboarding & BIM Setup
+•	Review of project scope, timelines, and deliverables
+•	Alignment with BEP, TIDP, ISO 19650, and client standards
+•	Federation strategy definition
+•	Naming conventions setup
+•	Parameter and family structure definition
+•	Workset and file strategy setup
+•	Coordination protocol establishment
+________________________________________
+B. Model Development
+•	Revit-based modeling (LOD 200–500)
+•	Alignment with design intent and technical requirements
+•	Controlled use of templates for consistent output
+•	Parametric family development
+•	Dynamo automation where applicable
+________________________________________
+C. Model Federation & Setup
+•	Weekly or milestone-based federation in Navisworks
+•	Shared coordinates verification
+•	Model version validation
+•	Controlled NWC exports
+•	Technical alignment prior to clash testing
+________________________________________
+D. Clash Matrix Definition
+NAV establishes and maintains a Clash Matrix defining:
+•	Discipline combinations
+•	Responsibility assignment
+•	Priority levels
+•	Tolerance thresholds
+________________________________________
+E. Clash Detection & Categorization
+Clashes are categorized based on severity:
+•	Priority 1 (Critical)
+•	Priority 2 (Major)
+•	Priority 3 (Minor)
+Each clash is validated before reporting to avoid false positives.
+________________________________________
+F. Issue Tracking & Reporting
+•	Structured clash logs
+•	Responsibility matrices
+•	Status tracking (Open / In Review / Resolved / Closed)
+•	Escalation of critical issues
+________________________________________
+G. Resolution & Verification
+•	Direct model corrections
+•	Re-testing after updates
+•	Verification reports prior to milestone submission
+________________________________________
+6. AUTOMATION & CUSTOM DYNAMO TOOLS
+NAV integrates custom computational workflows to improve reliability.
+Custom tools include:
+•	Profile change detection scripts
+•	Edited/overridden element detection
+•	Automated batch printing & sheet exports
+•	Parameter validation scripts
+•	Model data integrity checks
+•	Property set automation
+•	Sheet naming and numbering automation
+Automation reduces human error and increases repeatability in high-volume environments.
+________________________________________
+7. QA/QC & MODEL HEALTH CHECKS
+Quality control is continuous throughout the project lifecycle.
+Checks include:
+•	Warning monitoring and reduction
+•	Mirrored element detection
+•	Unused material purge
+•	Parameter completeness audits
+•	LOD compliance validation
+•	Documentation readiness checks
+•	Model performance optimization
+Only validated, warning-controlled models proceed to submission.
+________________________________________
+8. DOCUMENTATION & SHEET PRODUCTION
+Documentation is derived directly from coordinated BIM models.
+Deliverables include:
+•	Plans
+•	Sections
+•	Elevations
+•	Detailed packages
+•	Schedules
+•	Authority-compliant layouts
+•	Controlled CAD and PDF exports
+All drawings remain aligned with live BIM data.
+________________________________________
+9. AUTHORITY & CLIENT SUBMISSIONS
+NAV delivers structured submission packages including:
+•	2D CAD / PDF packages
+•	RVT, IFC, NWC model delivery
+•	TIDP documentation
+•	BIM compliance checklists
+•	Final QA/QC verification
+Submissions are traceable and audit-ready.
+________________________________________
+10. ONGOING COORDINATION & REPORTING
+Throughout the project:
+•	Progress reporting
+•	Coordination meeting participation
+•	Clash dashboards
+•	QA/QC logs
+•	Version control tracking
+•	Technical feedback integration
+This ensures transparency and reduced delivery risk.
+________________________________________
+11. BIM DELIVERY DOCUMENTATION
+Deliverables may include:
+•	3D Revit Models (RVT, IFC, DWG)
+•	Parametric Revit Families (RFA)
+•	Clash Detection Reports (PDF / Excel / BCF)
+•	LOD Matrix (Excel)
+•	BIM Coordination Reports
+•	Model Health Reports
+•	Authority Submission Packages
+________________________________________
+12. STANDARDS COMPLIANCE
+NAV workflows align with:
+•	ISO 19650 (Information Management)
+•	Project BEP requirements
+•	Client EIR
+•	Authority submission standards
+•	Naming and version control protocols

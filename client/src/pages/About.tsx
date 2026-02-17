@@ -16,7 +16,7 @@ export default function About() {
             <span className="text-accent font-bold tracking-widest text-xs uppercase mb-4 block">About NAV</span>
             <h1 className="font-heading text-5xl font-bold text-primary mb-6">Building Intelligence, <br/> Delivered.</h1>
             <p className="text-xl text-secondary leading-relaxed">
-              We are a team of architects, engineers, and BIM specialists dedicated to transforming the construction industry through digital precision.
+              NAV is a specialized Architectural BIM consultancy founded in 2025. We operate at the intersection of design intent, technical accuracy, and BIM governance.
             </p>
           </motion.div>
         </div>
@@ -37,26 +37,23 @@ export default function About() {
               alt="Our Team" 
               className="w-full h-[500px] object-cover filter grayscale hover:grayscale-0 transition-all duration-500"
             />
-            <div className="absolute -bottom-8 -right-8 w-48 h-48 bg-accent p-6 flex flex-col justify-center items-center text-white hidden md:flex">
-              <span className="text-5xl font-heading font-bold">10+</span>
-              <span className="text-sm font-medium uppercase tracking-wider mt-2">Years Exp.</span>
-            </div>
           </motion.div>
 
           <div className="flex flex-col justify-center space-y-8">
             <div>
-              <h2 className="font-heading text-3xl font-bold text-primary mb-4">Our Mission</h2>
+              <h2 className="font-heading text-3xl font-bold text-primary mb-4">Who We Are</h2>
               <p className="text-secondary leading-relaxed">
-                To eliminate construction waste and errors through impeccable digital planning. We believe that a building should be built twice: once digitally, and once physically.
+                Our work supports consultants, developers, contractors, and delivery teams by structuring complex architectural information into coordinated BIM environments aligned with project standards. 
+                NAV focuses on clean model development, structured federation, and ISO-aligned information management to reduce rework and submission risk.
               </p>
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               {[
-                { icon: Zap, title: "Efficiency", desc: "Streamlined workflows that save time." },
-                { icon: Target, title: "Accuracy", desc: "Zero-tolerance for modeling errors." },
-                { icon: Users, title: "Collaboration", desc: "Seamless integration with your team." },
-                { icon: CheckCircle2, title: "Quality", desc: "Standards that exceed expectations." }
+                { icon: Zap, title: "Governance", desc: "Strict BIM standards and protocols." },
+                { icon: Target, title: "Model Health", desc: "Continuous QA/QC and optimization." },
+                { icon: Users, title: "Compliance", desc: "Aligned with ISO 19650 standards." },
+                { icon: CheckCircle2, title: "Efficiency", desc: "Reduced rework and submission risk." }
               ].map((val, i) => (
                 <div key={i} className="flex gap-4">
                   <val.icon className="w-8 h-8 text-accent shrink-0" />
@@ -70,22 +67,22 @@ export default function About() {
           </div>
         </div>
 
-        {/* Team Section Placeholder */}
-        <div className="text-center py-16 border-t border-border">
-          <h2 className="font-heading text-3xl font-bold text-primary mb-12">Leadership Team</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {[1, 2, 3].map((i) => (
-              <div key={i} className="group">
-                <div className="aspect-[3/4] bg-gray-200 mb-6 overflow-hidden relative">
-                  {/* Generic professional headshot placeholders */}
-                  <img 
-                    src={`https://images.unsplash.com/photo-${i === 1 ? '1560250097-0b93528c311a' : i === 2 ? '1573496359142-b8d87734a5a2' : '1519085360753-af0119f7cbe7'}?w=500&q=80`}
-                    alt="Team Member"
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105 filter grayscale group-hover:grayscale-0"
-                  />
-                </div>
-                <h3 className="font-heading font-bold text-xl text-primary">Member Name</h3>
-                <p className="text-accent text-sm font-medium uppercase tracking-wider mt-1">Position Title</p>
+        {/* Hierarchy Section */}
+        <div className="py-16 border-t border-border">
+          <div className="max-w-3xl mx-auto text-center mb-16">
+            <h2 className="font-heading text-3xl font-bold text-primary mb-4">Technical Hierarchy</h2>
+            <p className="text-secondary">Our structured hierarchy ensures consistency and accountability through defined coordination roles and QA checkpoints.</p>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+            {[
+              "Founder / BIM Manager",
+              "Project Architect",
+              "Senior Architect",
+              "BIM Coordinator",
+              "BIM Architects"
+            ].map((role, i) => (
+              <div key={i} className="p-6 border border-border bg-white text-center">
+                <p className="font-heading font-bold text-sm uppercase tracking-wider text-primary">{role}</p>
               </div>
             ))}
           </div>

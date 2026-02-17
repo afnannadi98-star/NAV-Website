@@ -7,26 +7,26 @@ export default function Services() {
   const services = [
     {
       title: "BIM Coordination",
-      description: "We lead the coordination process, running clash detection across all disciplines (Architectural, Structural, MEP) to resolve conflicts before they reach the field.",
-      features: ["Clash Detection Reports", "Coordination Meetings", "Issue Tracking", "Constructability Review"],
+      description: "Weekly or milestone-based federation with structured clash detection. We establish a Clash Matrix defining discipline combinations, responsibilities, and tolerance thresholds.",
+      features: ["Navisworks Federation", "Clash Matrix Definition", "Priority Categorization", "Issue Tracking logs"],
       image: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=800&q=80"
     },
     {
-      title: "3D Modeling (LOD 100-500)",
-      description: "From conceptual massing to fabrication-ready details, our models are built to specific Level of Development (LOD) standards to suit your project needs.",
-      features: ["Parametric Families", "LOD 300/350/400", "As-Built Modeling", "Information Rich Models"],
+      title: "3D Modeling (LOD 200-500)",
+      description: "Revit-based architectural modeling aligned with design intent and BEP requirements. We utilize custom parametric families and Dynamo automation for high-volume environments.",
+      features: ["LOD 200–500 Development", "Parametric RFA Families", "Workset Management", "Dynamo Automation"],
       image: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=800&q=80"
     },
     {
-      title: "Scan to BIM",
-      description: "We convert point cloud data from laser scans into accurate, native Revit models for renovation and retrofit projects.",
-      features: ["Point Cloud Processing", "Existing Conditions Modeling", "Deviation Analysis", "Historical Preservation"],
+      title: "Automation & Model Health",
+      description: "Continuous monitoring through custom computation tools and QA/QC scripts. Only validated, warning-controlled models proceed to milestone submissions.",
+      features: ["Integrity Checks", "Warning Reduction", "Audit Automation", "Data Validation"],
       image: "https://images.unsplash.com/photo-1581094794329-cd67bce35543?w=800&q=80"
     },
     {
-      title: "Construction Documentation",
-      description: "Extracting precise 2D drawings from 3D models ensuring that plans, sections, and elevations are always coordinated.",
-      features: ["Shop Drawings", "Fabrication Sheets", "Schedules & BOQ", "Detailing"],
+      title: "Documentation & Submission",
+      description: "Authority-compliant layouts derived directly from live BIM data. Deliverables include plans, sections, and detailed packages aligned with ISO 19650 standards.",
+      features: ["Shop Drawing Extraction", "BOQ & Schedules", "Authority Submissions", "ISO 19650 Compliance"],
       image: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&q=80"
     }
   ];
