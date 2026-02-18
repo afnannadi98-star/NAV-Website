@@ -32,13 +32,12 @@ export default function Home() {
               <span className="text-accent font-bold tracking-widest text-xs uppercase">Precision Engineering</span>
             </div>
             <h1 className="font-heading font-bold text-5xl md:text-7xl leading-[1.1] uppercase">
-              Shaping the <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400">Future Built</span> <br />
-              Environment
+              Advanced <br />
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400">Architectural BIM</span> <br />
+              Consultancy
             </h1>
             <p className="text-lg text-gray-300 max-w-lg leading-relaxed">
-              We deliver high-fidelity BIM solutions that bridge the gap between design and construction. 
-              Accuracy, efficiency, and innovation in every model.
+              NAV specializes in delivering clean, coordinated, and submission-ready BIM models aligned with ISO 19650 workflows and project governance standards.
             </p>
             <div className="flex flex-wrap gap-4 pt-4">
               <Link href="/contact">

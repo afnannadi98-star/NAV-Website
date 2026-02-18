@@ -14,7 +14,7 @@ export default function About() {
             className="max-w-3xl"
           >
             <span className="text-accent font-bold tracking-widest text-xs uppercase mb-4 block">About NAV</span>
-            <h1 className="font-heading text-5xl font-bold text-primary mb-6">Building Intelligence, <br/> Delivered.</h1>
+            <h1 className="font-heading text-5xl font-bold text-primary mb-6">Precision, Clarity, <br/> & Technical Integrity.</h1>
             <p className="text-xl text-secondary leading-relaxed">
               NAV is a specialized Architectural BIM consultancy founded in 2025. We operate at the intersection of design intent, technical accuracy, and BIM governance.
             </p>
@@ -41,19 +41,20 @@ export default function About() {
 
           <div className="flex flex-col justify-center space-y-8">
             <div>
-              <h2 className="font-heading text-3xl font-bold text-primary mb-4">Who We Are</h2>
-              <p className="text-secondary leading-relaxed">
-                Our work supports consultants, developers, contractors, and delivery teams by structuring complex architectural information into coordinated BIM environments aligned with project standards. 
-                NAV focuses on clean model development, structured federation, and ISO-aligned information management to reduce rework and submission risk.
+              <h2 className="font-heading text-3xl font-bold text-primary mb-4">Letter of Submission</h2>
+              <p className="text-secondary leading-relaxed italic">
+                "Our expertise lies in transforming architectural design intent into technically accurate, high-quality BIM outputs suitable for coordination, documentation, and authority submission."
+                <br /><br />
+                — Afnan Mohammad, Founder & BIM Manager
               </p>
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               {[
-                { icon: Zap, title: "Governance", desc: "Strict BIM standards and protocols." },
-                { icon: Target, title: "Model Health", desc: "Continuous QA/QC and optimization." },
-                { icon: Users, title: "Compliance", desc: "Aligned with ISO 19650 standards." },
-                { icon: CheckCircle2, title: "Efficiency", desc: "Reduced rework and submission risk." }
+                { icon: Zap, title: "BIM Governance", desc: "Structured methodology for predictable delivery." },
+                { icon: Target, title: "Model Health", desc: "QA/QC control and clash management." },
+                { icon: Users, title: "ISO 19650", desc: "Aligned with international information standards." },
+                { icon: CheckCircle2, title: "Risk Reduction", desc: "Disciplined documentation workflows." }
               ].map((val, i) => (
                 <div key={i} className="flex gap-4">
                   <val.icon className="w-8 h-8 text-accent shrink-0" />

@@ -6,27 +6,27 @@ import { Link } from "wouter";
 export default function Services() {
   const services = [
     {
-      title: "BIM Coordination",
+      title: "BIM Coordination & Federation",
       description: "Weekly or milestone-based federation with structured clash detection. We establish a Clash Matrix defining discipline combinations, responsibilities, and tolerance thresholds.",
-      features: ["Navisworks Federation", "Clash Matrix Definition", "Priority Categorization", "Issue Tracking logs"],
+      features: ["Navisworks Federation", "Clash Matrix Definition", "Priority Categorization", "Issue Tracking & Resolution"],
       image: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=800&q=80"
     },
     {
-      title: "3D Modeling (LOD 200-500)",
-      description: "Revit-based architectural modeling aligned with design intent and BEP requirements. We utilize custom parametric families and Dynamo automation for high-volume environments.",
-      features: ["LOD 200–500 Development", "Parametric RFA Families", "Workset Management", "Dynamo Automation"],
+      title: "Model Development (LOD 200-500)",
+      description: "Revit-based architectural modeling from SD to As-Built. We align with design intent and BEP requirements, utilizing parametric families and Dynamo automation.",
+      features: ["SD / DD / IFC / Shop Drawings", "LOD 200–500 Standards", "Parametric RFA Families", "Workset & File Strategy"],
       image: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=800&q=80"
     },
     {
       title: "Automation & Model Health",
-      description: "Continuous monitoring through custom computation tools and QA/QC scripts. Only validated, warning-controlled models proceed to milestone submissions.",
-      features: ["Integrity Checks", "Warning Reduction", "Audit Automation", "Data Validation"],
+      description: "Custom computational workflows including profile change detection, parameter validation, and integrity checks. We ensure validated, warning-controlled models for submission.",
+      features: ["Custom Dynamo Tools", "Model Health Optimization", "Parameter Validation", "Automated Batch Exports"],
       image: "https://images.unsplash.com/photo-1581094794329-cd67bce35543?w=800&q=80"
     },
     {
-      title: "Documentation & Submission",
+      title: "Documentation & Compliance",
       description: "Authority-compliant layouts derived directly from live BIM data. Deliverables include plans, sections, and detailed packages aligned with ISO 19650 standards.",
-      features: ["Shop Drawing Extraction", "BOQ & Schedules", "Authority Submissions", "ISO 19650 Compliance"],
+      features: ["Shop Drawing Extraction", "Property Set Management", "Authority Submissions", "ISO 19650 Compliance"],
       image: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&q=80"
     }
   ];
