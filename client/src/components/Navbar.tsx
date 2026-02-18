@@ -36,8 +36,8 @@ export default function Navbar() {
     >
       <div className="container-padding flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2 group">
-          <Logo className="w-8 h-8" />
+        <Link href="/" className="flex items-center group">
+          <Logo />
         </Link>
 
         {/* Desktop Nav */}
