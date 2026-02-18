@@ -53,11 +53,11 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3 text-gray-400 text-sm">
                 <MapPin className="w-5 h-5 text-accent shrink-0" />
-                <span>123 Innovation Drive,<br />Tech District, NY 10001</span>
+                <span>Amman, Jordan</span>
               </li>
               <li className="flex items-center gap-3 text-gray-400 text-sm">
                 <Phone className="w-5 h-5 text-accent shrink-0" />
-                <span>+1 (555) 123-4567</span>
+                <span>+962 7 9000 0000</span>
               </li>
               <li className="flex items-center gap-3 text-gray-400 text-sm">
                 <Mail className="w-5 h-5 text-accent shrink-0" />

@@ -51,10 +51,10 @@ export default function Contact() {
 
             <div className="space-y-8">
               {[
-                { icon: MapPin, title: "Headquarters", content: "123 Innovation Drive, Tech District, NY 10001" },
-                { icon: Phone, title: "Phone", content: "+1 (555) 123-4567" },
+                { icon: MapPin, title: "Headquarters", content: "Amman, Jordan" },
+                { icon: Phone, title: "Phone", content: "+962 7 9000 0000" },
                 { icon: Mail, title: "Email", content: "info@navbim.com" },
-                { icon: Clock, title: "Business Hours", content: "Mon - Fri: 9:00 AM - 6:00 PM" }
+                { icon: Clock, title: "Business Hours", content: "Sun - Thu: 9:00 AM - 6:00 PM" }
               ].map((item, i) => (
                 <div key={i} className="flex gap-4">
                   <div className="w-12 h-12 bg-primary text-white flex items-center justify-center shrink-0">
@@ -71,7 +71,7 @@ export default function Contact() {
             {/* Map Placeholder */}
             <div className="h-64 bg-gray-100 w-full relative border border-border">
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.15830869428!2d-74.119763973046!3d40.69766374874431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sca!4v1650000000000!5m2!1sen!2sca" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d216597.1622359567!2d35.8340173362153!3d31.9515694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151ca25f8849635f%3A0x1d378051a82f0!2sAmman%2C%20Jordan!5e0!3m2!1sen!2sjo!4v1710000000000!5m2!1sen!2sjo" 
                 width="100%" 
                 height="100%" 
                 style={{ border: 0, filter: 'grayscale(1)' }} 
