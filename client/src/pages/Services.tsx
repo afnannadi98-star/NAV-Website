@@ -19,8 +19,8 @@ export default function Services() {
     },
     {
       title: "Model Development (LOD 200-400)",
-      description: "Revit-based architectural modeling from SD to IFC. We align with design intent, EIR, and BEP requirements, utilizing parametric families and Dynamo automation.",
-      features: ["SD / DD / IFC Modeling", "EIR & BEP Alignment", "Parametric RFA Families", "Information Container Management"],
+      description: "Revit-based architectural modeling from SD to Authority Submissions. We align with design intent, EIR, and BEP requirements, utilizing parametric families and Dynamo automation.",
+      features: ["SD / DD / Authority Submissions", "EIR & BEP Alignment", "Parametric Families", "Information Container Management"],
       image: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=800&q=80"
     },
     {
