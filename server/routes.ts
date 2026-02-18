@@ -85,33 +85,6 @@ async function seedDatabase() {
         scope: "As-Built Drawings & IFC Package",
         location: "Red Sea, Saudi Arabia",
         completionDate: "2024"
-      },
-      {
-        title: "Skyline Tower",
-        description: "Full BIM coordination for a 45-story mixed-use skyscraper, including structural and MEP integration.",
-        imageUrl: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80",
-        category: "Commercial",
-        scope: "BIM Coordination & Modeling",
-        location: "New York, NY",
-        completionDate: "2024"
-      },
-      {
-        title: "City General Hospital",
-        description: "LOD 400 modeling for complex healthcare facility with intricate HVAC and medical gas systems.",
-        imageUrl: "https://images.unsplash.com/photo-1581094794329-cd1361ddee21?auto=format&fit=crop&q=80",
-        category: "Healthcare",
-        scope: "LOD 400 Modeling",
-        location: "Chicago, IL",
-        completionDate: "2023"
-      },
-      {
-        title: "Eco-Residential Complex",
-        description: "Sustainable design coordination and energy analysis integration.",
-        imageUrl: "https://images.unsplash.com/photo-1545558014-8692077e9b5c?auto=format&fit=crop&q=80",
-        category: "Residential",
-        scope: "BIM Management",
-        location: "Austin, TX",
-        completionDate: "2024"
       }
     ];
 
