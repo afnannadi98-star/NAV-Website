@@ -102,7 +102,7 @@ export default function Home() {
             {[
               { icon: Layers, title: "BIM Coordination", desc: "Weekly matrix-driven federation and clash management in Navisworks." },
               { icon: Box, title: "Model Development", desc: "Progressive Revit-based modeling from LOD 200 to LOD 500 standards." },
-              { icon: Zap, title: "Automation", desc: "Custom Dynamo scripts for model integrity and efficient production." },
+              { icon: Zap, title: "BIM Automation", desc: "Custom Dynamo scripts and automated workflows to reduce manual modeling overhead." },
               { icon: Target, title: "QA/QC Checks", desc: "Continuous model health monitoring and compliance validation." },
               { icon: FileText, title: "Documentation", desc: "Coordinated, authority-ready drawings derived from live BIM data." },
               { icon: ShieldCheck, title: "Project Setup", desc: "Technical foundation setup aligned with ISO 19650 standards." }

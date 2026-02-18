@@ -37,9 +37,7 @@ export default function Navbar() {
       <div className="container-padding flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 group">
-          <div className="bg-primary text-primary-foreground p-1.5 rounded-sm group-hover:bg-accent transition-colors duration-300">
-            <Logo className="w-7 h-7" />
-          </div>
+          <Logo className="w-8 h-8" />
         </Link>
 
         {/* Desktop Nav */}

@@ -25,12 +25,13 @@ export default function Services() {
     },
     {
       title: "Model Development (LOD 200-500)",
-      description: "Architectural BIM models are developed progressively in line with the required LOD and project stage (SD, DD, IFC, As Built, Shop Drawings, Authority Submission).",
+      description: "Progressive Revit-based modeling from LOD 200 to LOD 500 standards, ensuring model density and information accuracy for every project stage.",
       features: [
-        "Revit-based modeling (LOD 200-500)",
-        "Design intent & technical alignment",
-        "Controlled use of view templates",
-        "Dynamo scripts for efficiency"
+        "Architectural & Structural BIM Modeling",
+        "Information Container Management",
+        "LOD 200 to LOD 500 Development",
+        "Authority Submission Models",
+        "As-Built Model Generation"
       ],
       image: modelDevImg
     },
