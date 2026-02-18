@@ -39,7 +39,7 @@ export default function Footer() {
           <div>
             <h3 className="text-white font-heading font-bold text-lg mb-6">Services</h3>
             <ul className="space-y-3">
-              {['BIM Coordination', '3D Modeling', 'Scan to BIM', 'Clash Detection'].map((item) => (
+              {['BIM Coordination', '3D Modeling', 'Clash Detection'].map((item) => (
                 <li key={item} className="text-gray-400 text-sm">
                   {item}
                 </li>
@@ -57,7 +57,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3 text-gray-400 text-sm">
                 <Mail className="w-5 h-5 text-accent shrink-0" />
-                <span>info@navbim.com</span>
+                <span>info@nav.com</span>
               </li>
             </ul>
           </div>
