@@ -60,6 +60,15 @@ async function seedDatabase() {
         completionDate: "2024"
       },
       {
+        title: "Shura Island",
+        description: "Luxury resort development featuring organic architectural forms. Comprehensive BIM support for as-built documentation and IFC packages.",
+        imageUrl: "/assets/images/shura-island.jpeg",
+        category: "Hospitality",
+        scope: "As-Built Drawings & IFC Package",
+        location: "Red Sea, Saudi Arabia",
+        completionDate: "2024"
+      },
+      {
         title: "Skyline Tower",
         description: "Full BIM coordination for a 45-story mixed-use skyscraper, including structural and MEP integration.",
         imageUrl: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80",
