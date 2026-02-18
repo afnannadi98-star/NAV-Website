@@ -34,9 +34,13 @@ export default function ProjectCard({ project, index }: ProjectCardProps) {
         <h3 className="text-white font-heading font-bold text-xl mb-2 translate-y-4 group-hover:translate-y-0 transition-transform duration-300 delay-100">
           {project.title}
         </h3>
-        <p className="text-gray-300 text-sm line-clamp-2 mb-4 translate-y-4 group-hover:translate-y-0 transition-transform duration-300 delay-150">
+        <p className="text-gray-300 text-sm line-clamp-2 mb-2 translate-y-4 group-hover:translate-y-0 transition-transform duration-300 delay-150">
           {project.description}
         </p>
+        <div className="mb-4 translate-y-4 group-hover:translate-y-0 transition-transform duration-300 delay-175">
+          <p className="text-[10px] uppercase tracking-widest text-accent font-bold">Scope</p>
+          <p className="text-white text-xs">{project.scope}</p>
+        </div>
         <Link href={`/portfolio?id=${project.id}`} className="inline-flex items-center gap-2 text-white text-sm font-medium hover:text-accent transition-colors translate-y-4 group-hover:translate-y-0 transition-transform duration-300 delay-200">
           View Details <ArrowRight className="w-4 h-4" />
         </Link>

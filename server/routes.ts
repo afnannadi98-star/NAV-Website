@@ -51,10 +51,20 @@ async function seedDatabase() {
   if (existingProjects.length === 0) {
     const seeds = [
       {
+        title: "King Abdulaziz International Airport (KAIA)",
+        description: "Expansion of the international terminal involving complex geometric structures and high-traffic infrastructure coordination. Specialist BIM support for large-scale aviation development.",
+        imageUrl: "/assets/images/portfolio-kaia.png",
+        category: "Infrastructure",
+        scope: "Shop Drawings & IFC Package",
+        location: "Jeddah, Saudi Arabia",
+        completionDate: "2024"
+      },
+      {
         title: "Skyline Tower",
         description: "Full BIM coordination for a 45-story mixed-use skyscraper, including structural and MEP integration.",
         imageUrl: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80",
         category: "Commercial",
+        scope: "BIM Coordination & Modeling",
         location: "New York, NY",
         completionDate: "2024"
       },
@@ -63,22 +73,16 @@ async function seedDatabase() {
         description: "LOD 400 modeling for complex healthcare facility with intricate HVAC and medical gas systems.",
         imageUrl: "https://images.unsplash.com/photo-1581094794329-cd1361ddee21?auto=format&fit=crop&q=80",
         category: "Healthcare",
+        scope: "LOD 400 Modeling",
         location: "Chicago, IL",
         completionDate: "2023"
-      },
-      {
-        title: "Metro Station Upgrade",
-        description: "Scan-to-BIM services for renovating historical transit infrastructure.",
-        imageUrl: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80",
-        category: "Infrastructure",
-        location: "London, UK",
-        completionDate: "2025"
       },
       {
         title: "Eco-Residential Complex",
         description: "Sustainable design coordination and energy analysis integration.",
         imageUrl: "https://images.unsplash.com/photo-1545558014-8692077e9b5c?auto=format&fit=crop&q=80",
         category: "Residential",
+        scope: "BIM Management",
         location: "Austin, TX",
         completionDate: "2024"
       }

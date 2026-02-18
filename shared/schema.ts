@@ -21,6 +21,7 @@ export const projects = pgTable("projects", {
   description: text("description").notNull(),
   imageUrl: text("image_url").notNull(),
   category: text("category").notNull(), // e.g., 'Commercial', 'Residential', 'Infrastructure'
+  scope: text("scope").notNull(),
   location: text("location").notNull(),
   completionDate: text("completion_date").notNull(),
 });
