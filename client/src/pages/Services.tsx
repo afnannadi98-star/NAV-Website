@@ -3,6 +3,14 @@ import { Check } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
 
+// Import images
+import onboardingImg from "@assets/image_1771444864888.png";
+import modelDevImg from "@assets/image_1771444885331.png";
+import coordinationImg from "@assets/image_1771444898164.png";
+import automationImg from "@assets/image_1771444911755.png";
+import qaImg from "@assets/image_1771444925786.png";
+import submissionImg from "@assets/image_1771444940654.png";
+
 export default function Services() {
   const services = [
     {
@@ -14,7 +22,7 @@ export default function Services() {
         "Model structure, levels & grids setup",
         "Naming conventions & frameworks"
       ],
-      image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80"
+      image: onboardingImg
     },
     {
       title: "Model Development (LOD 200-500)",
@@ -25,7 +33,7 @@ export default function Services() {
         "Controlled use of view templates",
         "Dynamo scripts for efficiency"
       ],
-      image: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=800&q=80"
+      image: modelDevImg
     },
     {
       title: "Coordination & Clash Management",
@@ -36,7 +44,7 @@ export default function Services() {
         "Categorized Detection (Priority 1-3)",
         "Issue Tracking & Resolution"
       ],
-      image: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=800&q=80"
+      image: coordinationImg
     },
     {
       title: "Automation & Custom Dynamo Tools",
@@ -47,7 +55,7 @@ export default function Services() {
         "Automated Parameter Setting",
         "Model Control & Data Validation"
       ],
-      image: "https://images.unsplash.com/photo-1581094794329-cd67bce35543?w=800&q=80"
+      image: automationImg
     },
     {
       title: "QA/QC & Model Health Checks",
@@ -58,7 +66,7 @@ export default function Services() {
         "Parameter completeness audits",
         "Documentation readiness validation"
       ],
-      image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&q=80"
+      image: qaImg
     },
     {
       title: "Documentation & Submission",
@@ -69,7 +77,7 @@ export default function Services() {
         "Multiformat Delivery (RVT, IFC, NWC)",
         "Compliance Checklists & TIDP"
       ],
-      image: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&q=80"
+      image: submissionImg
     }
   ];
 
