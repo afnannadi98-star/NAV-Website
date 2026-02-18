@@ -6,39 +6,69 @@ import { Link } from "wouter";
 export default function Services() {
   const services = [
     {
-      title: "BIM Coordination",
-      description: "Weekly or milestone-based federation with structured clash detection. We establish a Clash Matrix defining discipline combinations, responsibilities, and tolerance thresholds.",
-      features: ["Navisworks Federation", "Clash Matrix Definition", "Priority Categorization", "Issue Tracking & Resolution"],
-      image: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=800&q=80"
+      title: "Project Onboarding & BIM Setup",
+      description: "We begin by establishing a clear technical foundation aligned with the project's BIM governance requirements. This phase ensures consistency and avoids downstream rework.",
+      features: [
+        "Review of project scope & deliverables",
+        "Alignment with BEP, TIDP, ISO 19650",
+        "Model structure, levels & grids setup",
+        "Naming conventions & frameworks"
+      ],
+      image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80"
     },
     {
-      title: "IFC Coordination",
-      description: "Specialized IFC-based coordination workflows aligned with ISO 19650-2. We manage vendor-neutral data exchange (OpenBIM) to ensure seamless integration across the project lifecycle.",
-      features: ["OpenBIM Workflows", "IFC Schema Validation", "Information Exchange Management", "ISO 19650-2 Compliance"],
-      image: "https://images.unsplash.com/photo-1581094794329-cd1361ddee21?w=800&q=80"
-    },
-    {
-      title: "Model Development (LOD 200-400)",
-      description: "Revit-based architectural modeling from SD to Authority Submissions. We align with design intent, EIR, and BEP requirements, utilizing parametric families and Dynamo automation.",
-      features: ["SD / DD / Authority Submissions", "EIR & BEP Alignment", "Parametric Families", "Information Container Management"],
+      title: "Model Development (LOD 200-500)",
+      description: "Architectural BIM models are developed progressively in line with the required LOD and project stage (SD, DD, IFC, As Built, Shop Drawings, Authority Submission).",
+      features: [
+        "Revit-based modeling (LOD 200-500)",
+        "Design intent & technical alignment",
+        "Controlled use of view templates",
+        "Dynamo scripts for efficiency"
+      ],
       image: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=800&q=80"
     },
     {
-      title: "As-Built Modeling (LOD 500)",
-      description: "High-fidelity As-Built models strictly following LOD 500 standards. We provide audit-ready models reflecting final site conditions for facility management.",
-      features: ["LOD 500 Compliance", "Facility Management Data", "Final Model Audits", "As-Built Documentation"],
+      title: "Coordination & Clash Management",
+      description: "Matrix-driven process ensuring clarity, accountability, and controlled resolution through weekly or milestone-based federation in Navisworks.",
+      features: [
+        "Model Federation & Setup",
+        "Clash Matrix Definition",
+        "Categorized Detection (Priority 1-3)",
+        "Issue Tracking & Resolution"
+      ],
+      image: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=800&q=80"
+    },
+    {
+      title: "Automation & Custom Dynamo Tools",
+      description: "We deploy custom computational workflows to improve reliability, speed, and repeatability across high-volume BIM environments.",
+      features: [
+        "Profile Change Detection Script",
+        "Automated Printing & Export",
+        "Automated Parameter Setting",
+        "Model Control & Data Validation"
+      ],
+      image: "https://images.unsplash.com/photo-1581094794329-cd67bce35543?w=800&q=80"
+    },
+    {
+      title: "QA/QC & Model Health Checks",
+      description: "Quality control is applied continuously throughout the project lifecycle to ensure only clean, controlled models proceed to submission.",
+      features: [
+        "Warning, error & performance monitoring",
+        "Geometry accuracy & LOD compliance",
+        "Parameter completeness audits",
+        "Documentation readiness validation"
+      ],
       image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&q=80"
     },
     {
-      title: "Automation & Model Health",
-      description: "Custom computational workflows including profile change detection, parameter validation, and integrity checks. We ensure validated, warning-controlled models.",
-      features: ["Custom Dynamo Tools", "Model Health Optimization", "Parameter Validation", "Automated Batch Exports"],
-      image: "https://images.unsplash.com/photo-1581094794329-cd1361ddee21?w=800&q=80"
-    },
-    {
       title: "Documentation & Submission",
-      description: "Authority-compliant layouts derived directly from live BIM data. Deliverables include plans, sections, and detailed packages.",
-      features: ["Shop Drawing Extraction", "Property Set Management", "Authority Submissions", "ISO 19650 Compliance"],
+      description: "Production of authority-ready layouts derived directly from coordinated models ensuring drawings remain fully aligned with live BIM data.",
+      features: [
+        "Plans, Sections, Elevations & Details",
+        "Authority-compliant layouts",
+        "Multiformat Delivery (RVT, IFC, NWC)",
+        "Compliance Checklists & TIDP"
+      ],
       image: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&q=80"
     }
   ];

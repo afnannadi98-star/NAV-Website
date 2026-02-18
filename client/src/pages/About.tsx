@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { CheckCircle2, Users, Target, Zap } from "lucide-react";
+import { CheckCircle2, Users, Target, Zap, ShieldCheck, Microscope } from "lucide-react";
 
 export default function About() {
   return (
@@ -14,9 +14,9 @@ export default function About() {
             className="max-w-3xl"
           >
             <span className="text-accent font-bold tracking-widest text-xs uppercase mb-4 block">About NAV</span>
-            <h1 className="font-heading text-5xl font-bold text-primary mb-6">Precision, Clarity, <br/> & Technical Integrity.</h1>
+            <h1 className="font-heading text-5xl font-bold text-primary mb-6">Clean, Coordinated, <br/> & Submission-Ready.</h1>
             <p className="text-xl text-secondary leading-relaxed">
-              NAV is a specialized Architectural BIM consultancy founded in 2025. We operate at the intersection of design intent, technical accuracy, and BIM governance.
+              NAV specializes in delivering high-quality BIM outputs for medium- to large-scale developments, supporting design consultants, developers, and contractors in translating complex architectural designs into structured models.
             </p>
           </motion.div>
         </div>
@@ -31,7 +31,6 @@ export default function About() {
             viewport={{ once: true }}
             className="relative"
           >
-            {/* Office meeting image */}
             <img 
               src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80" 
               alt="Our Team" 
@@ -41,9 +40,9 @@ export default function About() {
 
           <div className="flex flex-col justify-center space-y-8">
             <div>
-              <h2 className="font-heading text-3xl font-bold text-primary mb-4">Letter of Submission</h2>
+              <h2 className="font-heading text-3xl font-bold text-primary mb-4">Our Expertise</h2>
               <p className="text-secondary leading-relaxed italic">
-                "Our expertise lies in transforming architectural design intent into technically accurate, high-quality BIM outputs suitable for coordination, documentation, and authority submission."
+                "Our process is built to support complex projects, tight schedules, and high governance environments without compromising quality or clarity."
                 <br /><br />
                 — Afnan Mohammad, Founder & BIM Manager
               </p>
@@ -51,10 +50,10 @@ export default function About() {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               {[
-                { icon: Zap, title: "BIM Governance", desc: "Structured methodology for information delivery." },
-                { icon: Target, title: "CDE Management", desc: "Common Data Environment control and coordination." },
-                { icon: Users, title: "ISO 19650", desc: "International standards for information management." },
-                { icon: CheckCircle2, title: "QA/QC Control", desc: "Disciplined verification and validation workflows." }
+                { icon: ShieldCheck, title: "BIM Governance", desc: "Technical foundation aligned with project requirements." },
+                { icon: Target, title: "Clash Matrix", desc: "Structured, matrix-driven coordination process." },
+                { icon: Users, title: "ISO 19650", desc: "Compliance with international information management." },
+                { icon: Microscope, title: "QA/QC Records", desc: "Continuous quality control throughout project lifecycle." }
               ].map((val, i) => (
                 <div key={i} className="flex gap-4">
                   <val.icon className="w-8 h-8 text-accent shrink-0" />

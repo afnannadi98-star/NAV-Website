@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowRight, Layers, Box, Scan, FileText } from "lucide-react";
+import { ArrowRight, Layers, Box, Zap, FileText, Target, ShieldCheck } from "lucide-react";
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import profilePic from "@assets/1_1771355152045.jpg";
@@ -37,7 +37,7 @@ export default function Home() {
               Consultancy
             </h1>
             <p className="text-lg text-gray-300 max-w-lg leading-relaxed">
-              NAV specializes in delivering clean, coordinated, and submission-ready BIM models aligned with ISO 19650 information management and project governance standards.
+              NAV specializes in delivering clean, coordinated, and submission-ready BIM models for medium- to large-scale developments.
             </p>
             <div className="flex flex-wrap gap-4 pt-4">
               <Link href="/contact">
@@ -93,17 +93,18 @@ export default function Home() {
             <span className="text-accent font-bold tracking-widest text-xs uppercase mb-4 block">Our Expertise</span>
             <h2 className="font-heading text-4xl font-bold text-primary mb-6">Comprehensive BIM Solutions</h2>
             <p className="text-secondary text-lg">
-              From initial concept to facility management, we provide end-to-end modeling services tailored to your project lifecycle.
+              We provide end-to-end Architectural BIM services across SD, DD, IFC, As Built, shop drawing and authority submission stages.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
-              { icon: Layers, title: "BIM Coordination", desc: "Weekly or milestone-based federation with structured clash detection." },
-              { icon: FileText, title: "IFC Coordination", desc: "Specialized OpenBIM workflows aligned with ISO 19650 standards." },
-              { icon: Box, title: "3D Modeling", desc: "High-fidelity models from LOD 200 to LOD 400 standards." },
-              { icon: Scan, title: "As-Built Modeling", desc: "LOD 500 As-Built models reflecting final site conditions." },
-              { icon: FileText, title: "Documentation", desc: "Authority-compliant layouts derived directly from live BIM data." }
+              { icon: Layers, title: "BIM Coordination", desc: "Weekly matrix-driven federation and clash management in Navisworks." },
+              { icon: Box, title: "Model Development", desc: "Progressive Revit-based modeling from LOD 200 to LOD 500 standards." },
+              { icon: Zap, title: "Automation", desc: "Custom Dynamo scripts for model integrity and efficient production." },
+              { icon: Target, title: "QA/QC Checks", desc: "Continuous model health monitoring and compliance validation." },
+              { icon: FileText, title: "Documentation", desc: "Coordinated, authority-ready drawings derived from live BIM data." },
+              { icon: ShieldCheck, title: "Project Setup", desc: "Technical foundation setup aligned with ISO 19650 standards." }
             ].map((service, i) => (
               <motion.div 
                 key={i}

@@ -13,8 +13,8 @@
   --secondary: 215 16% 47%;    /* #64748B */
   --secondary-foreground: 0 0% 100%;
 
-  /* Construction Orange Accent (Subtle usage) */
-  --accent: 24 95% 53%;        /* #F97316 */
+  /* Steel Blue Accent (Replacing Orange) */
+  --accent: 210 100% 50%;        /* #0080FF */
   --accent-foreground: 0 0% 100%;
 
   /* Clean Backgrounds */
