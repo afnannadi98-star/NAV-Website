@@ -1,4 +1,4 @@
-import logoImg from "@assets/SOLID_GLASS_CUBE_2_1771449900608.jpg";
+import logoImg from "@assets/SOLID_GLASS_CUBE_2_1771449977187.jpg";
 
 const Logo = ({ className = "w-8 h-8" }: { className?: string }) => {
   return (

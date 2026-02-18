@@ -4,7 +4,7 @@ import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 // Import assets
 import heroCube from "@/assets/images/hero-cube.jpg";
-import logoImg from "@assets/SOLID_GLASS_CUBE_2_1771449900608.jpg";
+import logoImg from "@assets/SOLID_GLASS_CUBE_2_1771449977187.jpg";
 
 export default function Home() {
   return (

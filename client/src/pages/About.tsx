@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 import { CheckCircle2, Users, Target, Zap, ShieldCheck, Microscope } from "lucide-react";
 
+import expertiseImg from "@assets/SOLID_GLASS_CUBE_2_1771449977187.jpg";
+
 export default function About() {
   return (
     <div className="pt-24 pb-16">
@@ -32,9 +34,9 @@ export default function About() {
             className="relative"
           >
             <img 
-              src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80" 
-              alt="Our Team" 
-              className="w-full h-[500px] object-cover filter grayscale hover:grayscale-0 transition-all duration-500"
+              src={expertiseImg} 
+              alt="Our Expertise" 
+              className="w-full h-[500px] object-cover"
             />
           </motion.div>
 
