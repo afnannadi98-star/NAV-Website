@@ -56,10 +56,6 @@ export default function Footer() {
                 <span>Amman, Jordan</span>
               </li>
               <li className="flex items-center gap-3 text-gray-400 text-sm">
-                <Phone className="w-5 h-5 text-accent shrink-0" />
-                <span>+962 7 9000 0000</span>
-              </li>
-              <li className="flex items-center gap-3 text-gray-400 text-sm">
                 <Mail className="w-5 h-5 text-accent shrink-0" />
                 <span>info@navbim.com</span>
               </li>

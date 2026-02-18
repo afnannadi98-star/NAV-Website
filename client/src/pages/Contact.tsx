@@ -52,7 +52,6 @@ export default function Contact() {
             <div className="space-y-8">
               {[
                 { icon: MapPin, title: "Headquarters", content: "Amman, Jordan" },
-                { icon: Phone, title: "Phone", content: "+962 7 9000 0000" },
                 { icon: Mail, title: "Email", content: "info@navbim.com" },
                 { icon: Clock, title: "Business Hours", content: "Sun - Thu: 9:00 AM - 6:00 PM" }
               ].map((item, i) => (
