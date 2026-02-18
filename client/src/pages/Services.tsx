@@ -7,7 +7,7 @@ import { Link } from "wouter";
 import onboardingImg from "@/assets/images/onboarding.jpg";
 import modelDevImg from "@/assets/images/model-dev.jpg";
 import coordinationImg from "@assets/Screenshot_2026-02-12_235025_1771446111162.png";
-import automationImg from "@/assets/images/automation.jpg";
+import automationImg from "@assets/image_1771447802210.png";
 import qaImg from "@/assets/images/qaqc-bim-v2.jpg";
 import submissionImg from "@assets/image_1771446426234.png";
 
