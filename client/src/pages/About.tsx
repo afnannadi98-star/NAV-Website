@@ -44,7 +44,7 @@ export default function About() {
               <p className="text-secondary leading-relaxed italic">
                 "Our process is built to support complex projects, tight schedules, and high governance environments without compromising quality or clarity."
                 <br /><br />
-                — Afnan Mohammad, Founder & BIM Manager
+                — Afnan Mohammad, BIM Manager
               </p>
             </div>
 
@@ -75,7 +75,7 @@ export default function About() {
           </div>
           <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
             {[
-              "Founder / BIM Manager",
+              "BIM Manager",
               "Project Architect",
               "Senior Architect",
               "BIM Coordinator",

@@ -1,24 +1,17 @@
-import React from 'react';
+import logoImg from "@assets/SOLID_GLASS_CUBE_2_1771449900608.jpg";
 
 const Logo = ({ className = "w-8 h-8" }: { className?: string }) => {
   return (
-    <svg 
-      viewBox="0 0 100 100" 
-      fill="none" 
-      xmlns="http://www.w3.org/2000/svg"
-      className={className}
-    >
-      <path 
-        d="M50 15L85 75H15L50 15Z" 
-        stroke="currentColor" 
-        strokeWidth="8" 
-        strokeLinejoin="round"
-      />
-      <path 
-        d="M50 35L70 70H30L50 35Z" 
-        fill="currentColor"
-      />
-    </svg>
+    <div className={`flex items-center gap-2`}>
+      <div className={`relative overflow-hidden rounded-sm ${className}`}>
+        <img 
+          src={logoImg} 
+          alt="NAV Logo" 
+          className="w-full h-full object-cover"
+        />
+      </div>
+      <span className="font-heading font-bold text-2xl tracking-tighter text-[#800000]">NAV</span>
+    </div>
   );
 };
 

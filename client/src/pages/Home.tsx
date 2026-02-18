@@ -2,7 +2,9 @@ import { motion } from "framer-motion";
 import { ArrowRight, Layers, Box, Zap, FileText, Target, ShieldCheck } from "lucide-react";
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
-import profilePic from "@assets/1_1771355152045.jpg";
+// Import assets
+import heroCube from "@/assets/images/hero-cube.jpg";
+import logoImg from "@assets/SOLID_GLASS_CUBE_2_1771449900608.jpg";
 
 export default function Home() {
   return (
@@ -10,9 +12,14 @@ export default function Home() {
       
       {/* Hero Section */}
       <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-primary text-white">
-        {/* Background Overlay */}
+        {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
-          <div className="absolute inset-0 bg-primary" />
+          <img 
+            src={heroCube} 
+            alt="NAV Architectural BIM Services" 
+            className="w-full h-full object-cover opacity-40"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-primary/90 via-primary/70 to-transparent" />
         </div>
 
         <div className="container-padding relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -27,7 +34,7 @@ export default function Home() {
             </div>
             <h1 className="font-heading font-bold text-5xl md:text-7xl leading-[1.1] uppercase">
               Advanced <br />
-              <span className="text-white font-extrabold">Architectural BIM</span> <br />
+              <span className="text-white font-black drop-shadow-lg">Architectural BIM</span> <br />
               Consultancy
             </h1>
             <p className="text-lg text-gray-300 max-w-lg leading-relaxed">
