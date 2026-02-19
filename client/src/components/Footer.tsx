@@ -57,7 +57,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3 text-gray-400 text-sm">
                 <Mail className="w-5 h-5 text-accent shrink-0" />
-                <span>info@nav.com</span>
+                <span>info@navbim.com</span>
               </li>
             </ul>
           </div>
