@@ -45,8 +45,6 @@ export default function About() {
               <h2 className="font-heading text-3xl font-bold text-primary mb-4">Our Expertise</h2>
               <p className="text-secondary leading-relaxed italic">
                 "Our process is built to support complex projects, tight schedules, and high governance environments without compromising quality or clarity."
-                <br /><br />
-                — Afnan Mohammad, BIM Manager
               </p>
             </div>
 
