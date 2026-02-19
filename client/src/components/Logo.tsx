@@ -1,4 +1,4 @@
-import logoImg from "../assets/logo-nav.png";
+import logoImg from "@assets/n_logo_copy_1771508447961.png";
 
 const Logo = ({ className = "" }: { className?: string }) => {
   return (
