@@ -99,7 +99,6 @@ export default function Home() {
 
       {/* CTA Section */}
       <section className="py-24 bg-primary text-white relative overflow-hidden">
-        <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-5" />
         <div className="container-padding relative z-10 text-center">
           <h2 className="font-heading text-4xl md:text-5xl font-bold mb-6">Ready to Optimize Your Project?</h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto mb-10">
