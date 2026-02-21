@@ -16,7 +16,7 @@ export default function Home() {
           <img 
             src={heroCube} 
             alt="NAV Architectural BIM Services" 
-            className="w-1/2 h-full object-cover opacity-40 float-left"
+            className="w-full h-full object-cover opacity-40"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-[#0B1221] via-[#0B1221]/70 to-transparent" />
         </div>
