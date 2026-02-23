@@ -3,7 +3,7 @@ import { ArrowRight, Layers, Zap, FileText, Target, ShieldCheck } from "lucide-r
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 // Import assets
-import heroCube from "@assets/unnamed_1771864961478.jpg";
+import heroCube from "@assets/adf3dc47-5f89-4892-897d-20442bdd88fe_1771865244969.png";
 
 export default function Home() {
   return (
