@@ -2,7 +2,7 @@ import { type Project } from "@shared/schema";
 import { ArrowRight } from "lucide-react";
 import { Link } from "wouter";
 import { motion } from "framer-motion";
-import confidentialImg from "@assets/CONFEDENTIAL_1771510644647.jpg";
+import confidentialImg from "@assets/CONFEDENTIAL_copy_1772811066762.jpg";
 
 interface ProjectCardProps {
   project: Project;
@@ -14,11 +14,10 @@ export default function ProjectCard({ project, index }: ProjectCardProps) {
     if (!url || url.toLowerCase().includes('confidential')) {
       return confidentialImg;
     }
-    if (url.startsWith('/assets/')) {
-      return url;
-    }
     return url;
   };
+
+  const isConfidential = !project.imageUrl || project.imageUrl.toLowerCase().includes('confidential');
 
   return (
     <motion.div
@@ -26,13 +25,13 @@ export default function ProjectCard({ project, index }: ProjectCardProps) {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ delay: index * 0.1, duration: 0.5 }}
-      className="group relative overflow-hidden bg-gray-100 dark:bg-gray-800"
+      className="group relative overflow-hidden bg-white"
     >
-      <div className="aspect-[4/3] overflow-hidden">
+      <div className="aspect-[4/3] overflow-hidden flex items-center justify-center bg-white">
         <img
           src={getImageUrl(project.imageUrl)} 
           alt={project.title}
-          className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+          className={`${isConfidential ? 'w-4/5 h-4/5 object-contain' : 'w-full h-full object-cover'} transition-transform duration-700 group-hover:scale-105`}
         />
       </div>
       
